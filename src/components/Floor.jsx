@@ -3,14 +3,12 @@ import { ElevatorContext } from '../contexts/ElevatorContext';
 
 
 const Floor = (props) => {
-
-    console.log('floor')
-
-    return (
-        <div className="floor" id={props.id} onClick={props.handleClick}>
-            floor
-        </div>
-    );
+  console.log('floor')
+  return (
+    <div className="floor" id={props.id} onClick={props.clickHandler}>
+      floor
+    </div>
+  );
 };
 
-export default Floor;
+export default React.memo(Floor);

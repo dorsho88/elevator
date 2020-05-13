@@ -3,16 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 import './components/style.css';
 import Building from './components/Building';
-import ElevatorContextProvider from './contexts/ElevatorContextProvider';
+// import ElevatorContextProvider from './contexts/ElevatorContextProvider';
 
 
 function App() {
   return (
 
     <div className="App">
-      <ElevatorContextProvider>
-        <Building />
-      </ElevatorContextProvider>
+      {/* <ElevatorContextProvider> */}
+      <Building />
+      {/* </ElevatorContextProvider> */}
     </div>
 
   );

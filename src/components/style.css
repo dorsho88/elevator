@@ -32,10 +32,10 @@
 
 .elevator {
     flex:1;
-    transition: 1s;
+    transition: 5s;
     position: relative;
     left: 0;
-    top:0;
+    top:200px;
     /* bottom: -100px;; */
     height:20px
 }
